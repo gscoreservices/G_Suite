@@ -69,6 +69,7 @@ function doGet(e){
   
 }
 
+
 function loadStyleSheet() {
   return HtmlService.createHtmlOutputFromFile('styleSheet').getContent();
 }     // Closes function loadStyleSheet()
